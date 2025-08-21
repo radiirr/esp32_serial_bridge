@@ -10,8 +10,8 @@ Config config;
 void ConfigManager::setDefaultConfig() {
   config.serialSpeed = 115200; // serial baud
 //  strcpy(config.serialMode, "raw"); // serial mode !unused_parameter
-  strcpy(config.wifiSSID, "ap1"); // wifi ap ssid
-  strcpy(config.wifiPassword, "LEtjOWn6BesRJ1ZVN"); // wifi passwd
+  strcpy(config.wifiSSID, "ap"); // wifi ap ssid
+  strcpy(config.wifiPassword, "verysecretkey"); // wifi passwd
   strcpy(config.tcpDstIP, "192.168.1.11"); // IPv4/6 destination address of the remote host
   config.tcpDstPort = 99; // remote host destination port
   config.tcpServerEnabled = true; // tcp console server enabled or disabled
